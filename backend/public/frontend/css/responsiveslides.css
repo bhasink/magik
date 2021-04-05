@@ -1,0 +1,155 @@
+/*! http://responsiveslides.com v1.55 by @viljamis */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index:0;
+  }
+  
+
+  
+  .rslides h2 {
+  bottom: 37%;
+  color: #fff;
+  font-family: "TrajanPro-Regular";
+  font-size: 90px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 4px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+  .rslides h1 {
+  bottom: 21%;
+  color: #10d0ba;
+  font-family: "TrajanPro-Regular";
+  font-size: 110px;
+  left: 105px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+  .rslides h5 {
+  bottom: 24%;
+  color: #fff;
+  font-family: "TrajanPro-Regular";
+  font-size: 16px;
+  left: 189px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+  
+  
+  
+  
+  .search {
+  display: inline-block;
+  padding-left: 18px;
+  padding-right: 18px;
+  cursor: pointer;
+  color:#9d9c9c;
+}
+.search .fa-times {
+  display: none;
+}
+.search.searching input {
+  width: 700px;
+  opacity: 1;
+ 
+  
+}
+.search.searching .fa-search {
+  display: none;
+}
+.search.searching .fa-times {
+  display: block;
+}
+.search input {
+  display: none;
+  position: absolute;
+  top: 42px;
+  width: 0px;
+  color:#9d9c9c;
+  right: 0px;
+  display: block;
+  background:#000;
+  -webkit-appearance: none;
+  
+  height: 60px;
+  border:none;
+  opacity: 0;
+ 
+  line-height: 30px;
+ 
+  font-size: 14px;
+  transition: all 200ms linear;
+  margin: 0;
+  padding-left: 10px;
+}
+.search input:focus {
+  outline: none;
+  border-color: black;
+}
+ul.rslides_tabs {
+  bottom: 35px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 0;
+}
+ul.rslides_tabs li {
+   display: inline-block;
+}
+ul.rslides_tabs li.rslides_here a{
+	background:#69951a;
+}
+ul.rslides_tabs li a {
+ background: #0588ce;
+ 
+  border-radius: 50%;
+  padding:9px;
+  font-size:0;  
+  margin-right: 5px;
+  width: 17px;
+}
+
+<!--Logo Slider-->
+
+
+
+  

@@ -1,0 +1,741 @@
+@media screen and (max-width:1199px){
+    header{
+        .main{
+            height: auto;
+            .logo{               
+                width: 240px;
+                height: auto;
+                img{
+                    width: 100%;
+                    height: auto;
+                }             
+                
+            }
+            ul{
+                li{
+                    a{
+                      padding: 24px 15px;   
+                    }
+                    &:hover{
+                        ul{
+                            top: 68px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .about-section{
+        margin: 30px 0;
+        .left {
+            width: 49%;
+            .about-img {
+                float: left;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+                &:before{
+                    display: none;
+                }           
+            }
+            .right{
+                width: 49%;            
+            } 
+        }
+        .right{
+            width: 49%;
+            float: right;
+            .title-image {               
+                width: 35%;
+                margin-right: 2%;
+            }
+            .content {
+                width: calc(100% - 39%);
+                float: left;
+            }
+
+        }       
+    }
+    .mision-sec{ 
+        height: 175px;
+        background-size: 100% 100%;
+        .inner {
+            width: 100%;       
+            text-align: center;
+            padding: 0 20px;
+            box-sizing: border-box;
+            p {            
+                padding-left: 30px;           
+                text-align: center;
+                box-sizing: border-box;
+                margin-top: 10px;
+            }
+        }
+    }
+    .business-section {
+        margin: 30px 0;
+        p {            
+            padding: 0 40px;            
+        }
+        ul li {
+            width: 49%;
+            height: 330px;
+            margin-right: 0;
+            &:nth-of-type(2n) {                
+                float: right;
+            }
+            .detail .inner-detail {
+                top: 0;
+            }        
+        }        
+    }
+    .news-section {       
+        height: auto;       
+    }
+    .news-section .left {
+        width: 49%;       
+        padding: 20px 0;       
+    }
+    .news-section .right {
+        width: 49%;        
+        padding: 20px 0 20px 10px;       
+    }
+    .news-section .right ul li .image {       
+        width: 150px;       
+    }
+    .news-section .right ul li .content {       
+        width: calc(100% - 170px);
+    }
+    .banner-outer .inner-page-text {       
+        left: 1%;
+    }
+    .banner-outer .text, .banner-outer .inner-page-text {       
+        width: 98%;
+    }
+    footer .footer-link {
+        float: left;
+        margin-right: 15px;
+        width: 120px;
+    }
+    footer .footer-link.one {
+        width: 150px;
+    }
+
+    @keyframes menu-effect{
+        from{
+            top: 100px;
+          
+        }
+        to{
+            top: 68px;
+            
+        }
+    }
+    /* Inner Pages */   
+    .banner-outer.inner-banner {        
+        margin-bottom: 20px;
+    }
+    .about-sec .about-content .image {
+        width: 38%;
+        float: left;
+        img{
+            width: 100%;
+        }
+    }   
+    .about-sec .about-content .text {
+        width: 60%;       
+    }
+    .about-sec .vision-mision {
+        margin-top: 20px;       
+    }
+    .about-sec .vision-mision .mision,.about-sec .vision-mision .vision {
+        width: 50%;        
+        padding: 30px 20px;        
+    }
+    .about-sec .vision-mision .vision::after {        
+        display: none;
+    }
+    .leadership-sec ul li,.leadership-sec ul li:nth-of-type(4n) {
+        margin: 0 2% 50px 0;       
+        width: 32%;       
+    }    
+    .leadership-sec ul li .image img {
+        width: 100%;       
+    }
+    .leadership-sec ul li:nth-of-type(3n) {
+        margin-right: 0;        
+    }
+    .leadership-sec ul li .detail-sec {       
+        font-size: 16px;        
+    }
+    .leadership-sec ul li .image .inner-text {      
+       
+        p{
+            padding: 25px 0 0;            
+        }       
+    }
+    .pop-inner {       
+        width: 80%;        
+    }
+    .about-sec.why-ayana .text {        
+        margin-right: 0;       
+    }
+    .about-sec.why-ayana .image {
+        width: 38%;
+        float: right;
+    }
+    .about-sec.why-ayana .process ul li {
+        width: 33%;       
+    }
+    .policy-sec ul li {
+        width: 32%;       
+        margin: 2% 2% 0 0;        
+    }
+    .news-sec ul li {      
+        min-height: 530px;
+        width: 50%;
+        padding: 15px 15px 15px 0;
+        &:nth-of-type(2n){
+            padding-left: 15px;
+        }
+        p{
+            max-height: 70px;
+            overflow-y: hidden;
+        }        
+    }
+    .banner-outer .text.center-text, .banner-outer .inner-page-text.center-text {       
+        top: 40%;        
+    }
+    .life-ayana-top {       
+        margin-top: -20px;
+        p{
+            font-size: 16px;            
+            line-height: 19px;
+        }       
+    }
+    .life-ayana .fun-at-work .image {
+        width: 48%;        
+    }
+    .life-ayana .fun-at-work .content {
+        width: 48%;       
+    }
+    .contact-sec .left,.contact-sec .right {
+        width: 49%;       
+    }
+    .contact-sec .left ul li{        
+        width: 50%;        
+       background-position-x: 0;
+       padding-left: 30px;
+       &.mail{
+        background-position-x: 0; 
+       }
+       &.address{
+        background-position-x: 0; 
+       }      
+    }
+    .contact-sec .right ul li {
+        width: 49%;        
+    }
+    .about-sec.why-ayana .text.same {
+        float: left;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    
+}
+@media  screen and (max-width:1023px){
+    ul.main-nav,
+	.desk-scroll-header {display:none;}
+	.slicknav_menu {display:block;}
+	.slicknav_menu {    
+        width: auto;
+        right: 2%;
+        top: 50px;
+        z-index: 999999;
+        transition: all linear .2s;
+    }
+    .fixed .slicknav_menu{
+        top: 10px;
+    }
+
+    .about-section .left, .about-section .right {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;        
+    }
+    .about-section .left .about-img {       
+        width: 100%;
+    }
+    .about-section .left p {        
+        text-align: center;
+    }
+    a.explore {       
+        float: none;      
+    }
+    .about-section .right .title-image {
+        width: 100%;
+        margin-right: 0;
+    }
+    .about-section .right .title-image img {
+        width: 18%;       
+        margin: 0 auto 15px;
+        text-align: center;
+        float: none;
+        border-radius: 50%;
+    }
+    .about-section .right .content {
+        width: 100%;        
+    }
+    .about-section .right .content P {       
+        min-height: auto;
+        text-align: center;
+    }
+    .about-section .right a.explore {
+        float: none;
+    }
+    .business-section ul li .title-text {
+        font-size: 20px;        
+    }
+    .news-section::before {         
+        width: 100%;
+        height: 530px;      
+    }
+    .news-section .left img {      
+        max-height: 350px;
+    }
+    .news-section .left, .news-section .right {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .news-section .right ul li .content p {        
+        height: 50px;
+    }
+    .newsletter .left {
+        width: 65%;        
+    }
+    .newsletter span {
+        font-size: 18px;        
+    }
+    .newsletter .left form input.input-field {
+        width: 270px;        
+    }
+    footer .footer-link,footer .footer-link.one,footer .footer-link.two, {       
+        margin-right: 2%;
+        width: 23%;
+        margin-bottom: 20px;
+    }
+    footer .footer-link.three {
+        width: 100%;       
+    }
+    /* Inner Pages */
+    .news-section .right ul li .image img {       
+        height: auto;
+    }
+    .about-sec .about-content .text {        
+        margin-top: 0;
+    }
+    .about-sec .vision-mision p {
+        line-height: 22px;        
+    }
+    .about-sec.why-ayana .process ul li .text-detail {        
+        font-size: 18px;       
+        margin-top: 35px;
+    }
+    .policy-sec ul li,.policy-sec ul li:nth-of-type(3n) {
+        width: 49%;
+        margin: 2% 2% 0 0;
+        &:nth-of-type(2n){
+            margin-right: 0;
+        }
+    }
+    .policy-sec ul li .title-text {
+        font-size: 14px;        
+    }
+    .news-sec ul li {
+        min-height: 450px;        
+    }
+    .contact-sec .left, .contact-sec .right {
+        width: 96%;
+        margin:15px 2% 0;
+    }
+    .contact-sec .left ul li span {       
+        padding-bottom: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+     
+}
+@media screen and (max-width:767px){
+    header .top ul li,header .top ul li.feedback,header .top ul li.mail,header .top ul li.call {
+        background: none;
+        padding-left: 0;
+    }
+    header .top ul li a {      
+        padding: 0 10px;       
+    }
+    .mision-sec .inner p {
+        padding-left: 0;       
+        font-size: 16px;
+        &:after,&:before{
+            display: none;
+        }
+    }
+    .business-section ul li {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 15px;
+        .detail{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .news-section::before {        
+        height: 495px;
+    }
+    .news-section .left img {
+        max-height: 315px;
+    }
+    .newsletter .social {
+        width: 33%;
+        float: right;
+    }
+    .newsletter span {
+        font-size: 14px;
+    }
+    .newsletter .left {
+        width: 63%;
+    }
+    .newsletter .left form input.input-field {
+        width: 240px;
+    }
+    footer {        
+        padding-top: 20px;       
+    }
+    footer .bootom-footer p.left, footer .bootom-footer p.right {       
+        width: 100%;
+        float: left;
+        text-align: center;
+    }
+    footer .bootom-footer p.right {
+        text-align: center;
+    }
+    /* Inner Pages */
+    .about-sec .about-content .image {        
+        display: none;
+    }
+    .about-sec .about-content .text {        
+        width: 100%;
+    }
+    .about-sec .vision-mision {        
+        background: #fff;
+        height: auto;        
+    }
+    .about-sec .vision-mision::before {        
+        display: none;
+    }
+    .about-sec .vision-mision .mision, .about-sec .vision-mision .vision {
+        width: 102%;        
+        height: auto;
+        margin: 0 -1%;
+    }
+    .leadership-sec ul li, .leadership-sec ul li:nth-of-type(4n),.leadership-sec ul li:nth-of-type(3n) {
+        margin: 0 2% 50px 0;
+        width: 49%;
+    }
+    .leadership-sec ul li:nth-of-type(2n){
+        margin-right: 0;
+    }
+    .about-sec.why-ayana .process {       
+        height: 350px;
+        margin-bottom: 20px;       
+    }
+    .about-sec.why-ayana .process ul {
+        margin: 5px auto;       
+    }
+    .about-sec.why-ayana .process ul li {        
+        height: 160px;       
+    }
+    .about-sec.why-ayana .process ul li .text-detail {
+        font-size: 16px;
+        margin: 10px 0 0 auto;        
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .about-sec.why-ayana .faq-sec .faq-inner div[class^="cat"] > label {        
+        font-size: 12px;       
+        height: auto;
+        line-height: 18px;        
+        padding: 16px 0 17px 80px;       
+    }
+    .about-sec.why-ayana .faq-sec .faq-inner .question-wrap .question {      
+        font-size: 14px;
+        margin: 0;
+        padding: 15px;
+        line-height: 22px;       
+    }
+    .news-sec ul li,.news-sec ul li:nth-of-type(2n) {
+        min-height: auto;
+        max-width: 100%;
+        width: 100%;
+        padding: 15px;
+        border: solid 1px #ddd;
+        margin-bottom: 15px;
+    }
+    .life-ayana .fun-at-work .image {
+        width: 100%;
+    }
+    .life-ayana .fun-at-work::before {       
+        display: none;
+    }
+    .life-ayana .fun-at-work .content {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .image.owl-theme .owl-controls .owl-buttons .owl-prev,.image.owl-theme .owl-controls .owl-buttons .owl-next {       
+        display: none;
+    }
+    .slicknav_nav {       
+        max-height: 250px;        
+    }
+    .banner-outer.inner-banner {
+        margin-bottom: 0;
+    }
+    
+
+
+
+
+
+
+    
+
+}
+@media screen and (max-width:639px){
+    header .top {        
+        display: none;
+    }
+    .about-section .right .title-image img {
+        width: 30%;        
+    }
+    .about-section .right .content P {       
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .mision-sec {      
+        height: 200px;
+        background: #69951a;
+        background-image: none;
+        padding: 20px 0;
+    }
+    .business-section p {
+        padding: 0 20px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .news-section::before {
+        height: 420px;
+    }
+    .news-section .left img {
+        max-height: 215px;
+    }
+    .news-section .right ul li .content span {
+        font-size: 14px;        
+    }
+    .news-section .right ul li .content p {
+        height: 40px;
+        overflow: hidden;
+        text-align: left;
+    }
+    .business-section ul li .detail img {        
+        min-height: 270px;
+    }
+    .newsletter .left form input.input-field {
+        width: 295px;
+    }
+    .newsletter span {        
+        display: none;
+    }
+    footer .footer-link, footer .footer-link.one, footer .footer-link.two {
+        margin-right: 0;
+        width: 48%;
+        margin-bottom: 20px;
+        min-height: 200px;
+    }
+    footer .footer-link:nth-of-type(even){
+        float: right;
+    }
+    footer .footer-link.three {        
+        margin-top: -80px;
+    }
+    /* Inner Pages */
+    .banner-outer .inner-page-text {
+        bottom: 25px;
+        font-size: 18px;        
+    }
+    .about-sec.why-ayana .process ul li {
+        width: 32.5%;
+    }
+    .policy-sec ul li, .policy-sec ul li:nth-of-type(3n) {
+        width: 100%;
+        margin: 2% 0 0 0;
+    }
+    .policy-sec ul li .title-text {
+        font-size: 16px;
+    }
+    .news-sec ul li .title-text {
+        font-size: 16px;       
+        line-height: 20px;       
+    }
+    .slicknav_menu {       
+        top: 10px;       
+    }
+    .contact-sec .left ul li {        
+        font-size: 14px;        
+    }
+    .contact-sec .map {        
+        margin-top: 20px;       
+    }
+
+
+
+
+
+
+
+}
+@media screen and (max-width:479px){
+    header .main .logo {
+        width: 160px;
+        height: auto;
+    }
+    header .main.fixed .logo {
+        width: 150px;
+        height: auto;
+        margin-top: 5px;
+    }
+    .about-section .left p {        
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .about-section .right .content h3 {
+        font-size: 14px;        
+    }
+    .mision-sec .inner {        
+        padding: 0 10px;
+        p{
+            font-size: 14px;
+            line-height: 20px;
+        }        
+    }
+    .business-section p {
+        padding: 0 10px;      
+        line-height: 20px;
+    }
+    .business-section ul li .title-text {
+        font-size: 16px;
+    }
+    .business-section p {        
+        font-size: 14px;       
+    }
+    .news-section::before {
+        height: 330px;
+    }
+    .news-section .left img {       
+        max-height: 130px;
+    }
+    .news-section .left p span {       
+        font-size: 15px;        
+    }
+    .news-section .right ul li .image {
+        width: 50%;
+        margin: 0 auto;
+        float: none;
+        img{
+            width: 100%;
+            border-radius: 15px;
+        }        
+    }
+    .news-section .right ul li .content {
+        width: 100%;
+    }
+    .newsletter .social .icon {       
+        display: none;
+    }
+    .newsletter .left {
+        width: 295px;
+        margin: 0 auto;
+        float: none;
+    }
+    footer .bootom-footer p.left, footer .bootom-footer p.right {      
+        font-size: 14px;       
+    }
+    /* Inner Pages */
+    .about-sec .vision-mision p {        
+        text-align: left;
+        padding: 0;
+        &::after,&::before{
+            display: none;
+        }
+    }
+    .banner-outer .inner-page-text {
+        bottom: 15px;
+        font-size: 15px;
+    }
+    .leadership-sec ul li, .leadership-sec ul li:nth-of-type(4n), .leadership-sec ul li:nth-of-type(3n) {
+        margin: 0 0 20px 0;
+        width: 100%;
+    }
+    .about-sec.why-ayana .process {
+        height: 520px;       
+    }
+    .about-sec.why-ayana .process ul li {
+        width: 49%;
+        &:after{
+            display: none;
+        }      
+        &:nth-of-type(4n){
+            &:before{
+                display: block;
+            } 
+        }                      
+    }
+    .slicknav_menu,.fixed .slicknav_menu {
+        top: 0px;
+    }
+    .slicknav_nav {        
+        top: 43px;        
+    }
+    .fixed .slicknav_nav {
+        top: 47px;
+    } 
+    .contact-sec .left ul li span {        
+        font-size: 14px;        
+    } 
+    .contact-sec .left ul li,.contact-sec .right ul li {
+        width: 100%;       
+    } 
+    .contact-sec .left ul li.address {        
+        margin-top: 0px;       
+    }
+    
+     
+
+
+    
+
+
+
+}
